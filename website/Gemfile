@@ -1,0 +1,18 @@
+source "http://rubygems.org"
+
+gem 'nanoc', '3.6.3'
+gem 'mime-types'
+gem 'less'
+gem 'rainpress'
+gem 'kramdown'
+gem 'adsf'
+gem 'therubyracer'
+gem 'listen'
+gem 'rb-fsevent'
+gem 'builder'
+#Shell
+gem 'pry'
+gem 'systemu'
+# Testing
+gem 'nokogiri'
+gem 'w3c_validators'
