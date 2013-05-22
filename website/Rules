@@ -49,7 +49,7 @@ compile 'blog/feed' do
   filter :erb
 end
 
-compile '/event/*' do
+compile '/pages/*' do
   filter :kramdown
   layout 'event'
 end
@@ -90,7 +90,7 @@ route '/assets/js/*' do
   item.identifier.chop + '.js'
 end
 
-route '/event/*' do
+route '/pages/*' do
   y,m,d,slug = /([0-9]+)\-([0-9]+)\-([0-9]+)\-([^\/]+)/.match(item.identifier).captures
 
   "/event/#{y}/#{m}/#{slug}/index.html"

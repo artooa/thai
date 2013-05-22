@@ -82,5 +82,5 @@ deploy:
     dst:  "example.ch0@ssh.netzone.ch:/htdocs"
   staging:
     kind: rsync
-    dst:  "artooa.ch0@ssh.netzone.ch:/htdocs/artooa.artooa.ch"
+    dst:  "artooa.ch0@ssh.netzone.ch:/htdocs/thai.artooa.ch"
     
