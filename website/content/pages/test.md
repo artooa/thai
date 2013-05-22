@@ -1,0 +1,28 @@
+---
+title: "Website Optimierung für mobile Endgeräte"
+created_at: 2013-03-12 09:00:00 +0000
+kind: article
+lead: "Dieses Jahr wird es gleich viele Smartphones geben wie Computer - weltweit. Die meisten Websites sind nicht auf die mobilen Geräte eingestellt. Nein, es braucht keine zweite, mobile Website. Die Lösung heisst 'Responsive Design'."
+---
+
+Das Word Wide Web wird immer mehr mobil. Ihre Kunden benützen das Smartphone überall und immer häufiger. Der Arbeitsplatzcomputer verliert an Relevanz beim Konsumieren der Inhalte aus dem Web. Wie erleben Sie diesen Wandel?
+
+Traditionelle Websites sind auf die Bildschirmgrössen eines Schreibtischbildschirms optimiert und werden auf Smartphones und Tablets schlecht lesbar und bedienbar dargestellt. 
+
+Von einer Investition in eine zusätzliche mobile Website haben Sie vielleicht bisher abgesehen, denn diese Doppelspurigkeit führt zu höheren Investitons- und Betriebskosten.
+
+Wollen Sie trotzdem bei der mobilen Revolution dabei sein?  Wir bieten Ihnen die Optimierung Ihrer bestehenden Website an und optimieren sie für mobile Geräte. Corporate Design und Corporate Identity wird beibehalten.
+
+Ihre Website ist nach dieser Optimierung smarter. Durch unser Responsive Design passt sich sich die Website den Geräten Ihrer Kunden dynamisch an. Und das Beste: Sie haben trotzdem keine Verdoppelung des Aufwands bei zukünftiger Aktualisierung der Inhalte. 
+
+
+### Testen Sie Ihre Webpräsenz
+
+Mit dem [Tool Screenify](http://quirktools.com/screenfly/) testen sie ihre bestehende Website. Finden sie heraus, wie es wirkt, wenn Ihre Kunden auf einem Tablet, Smartphone oder Fernseher bei Ihnen vorbeischauen. 
+
+Viele Websites sind pixelgenau programmiert. Sie haben ein Layout, wie es auch auf dem Papier ausssehen würde. Mit der neuen Vielfalt im mobilen Internet werden auch die Layouts flexibler. Die Inhalte fliessen in den Bildschirmplatz, der verfügbar ist. Und eine Website sieht je nach Endgerät etwas anders aus.
+
+Bei Responsive Design sollte die Menü-Steuerung neu überdacht werden. Denn mobile Geräte haben ein völlig anderes Bedienungskonzept als ein Desktop Computer. 
+
+Pixel-genaues Layout und identisches Erscheinungsbild auf allen Bildschirmen sind mit dem mobilen Internet Vergangenheit. Dafür bringt Responsive Design viel Flexibilität und neue Lösungswege.
+
