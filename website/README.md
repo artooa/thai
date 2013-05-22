@@ -1,7 +1,7 @@
 Thai
 ====
 
-This is a nanoc demo site. 
+# This is a nanoc demo site.
 
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/Mum975q8yjs" frameborder="0" allowfullscreen></iframe>
@@ -37,3 +37,5 @@ transition town winterthur - stadt im wandel
 
 
 <http://gemeinschaften.ch/>
+![picture Markus Rüegg](http://www.kreative-beziehungen.ch/joomla/images/Bilder/markus%20in%20space_001_90kb-23.6.12.jpg)
+
