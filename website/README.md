@@ -1,6 +1,7 @@
 ---
-typ: inserat
+typ: newsletter
 bis: 24.6.2013
+lead: "Dies ist eine wichtige Meldung für alle, die sich für Strohballen interessieren"
 ---
 
 Thai
