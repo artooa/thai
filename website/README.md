@@ -1,4 +1,4 @@
 Thai
 ====
 
-This is a nanoc demo site
+This is a nanoc demo site. 
