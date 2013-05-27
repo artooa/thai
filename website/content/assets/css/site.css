@@ -90,6 +90,8 @@ color: white;
 border-bottom-color: white;
 }
 
+/* see http://www.dynamicdrive.com/style/csslibrary/item/thick_underline_menu/ */
+
 .underlinemenu{
 font-weight: bold;
 width: 100%;
