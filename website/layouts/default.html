@@ -11,16 +11,18 @@
 		<meta name="Keywords" content="Restaurant, Thailaendisch, Thail&#228;ndisch, thailaendisch, thail&#228;ndisch, essen" />
 
         <meta name="viewport" content="width=device-width">
+        
+        <link rel="stylesheet" href="/assets/css/site.css">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 		<!--
-		<link rel="stylesheet" href="assets/css/site.css">
-		-->
-        
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-        
-        <script src="assets/js/vendor/modernizr-2-6-2-min.js"></script>
+		
+		        
+        <link rel="stylesheet" href="/assets/css/normalize.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        -->
+
+        <script src="/assets/js/vendor/modernizr-2-6-2-min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -28,13 +30,35 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+      
+          <div id="page">
+        
+        
+        <div id="header">
+            <div id="logo">
+                <a href="/"><img alt="Logo" src="/assets/img/Logo.png" /></a>
+                
+            </div>
+        </div> <!-- header -->
+        
+        <div id="main">
+        
 	  <%= render '_menu' %>
+	  
+	  <div id="contentContainer">
       <%= yield %>
+      
+      </div> <!-- contentContainer -->
+      
       <%= render '_footer' %>
+      </div> <!-- main-->
+    </div>  <!-- page-->
+
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="asssets/js/vendor/jquery-1-9-1-min.js"><\/script>')</script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script>window.jQuery || document.write('<script src="/asssets/js/vendor/jquery-1-9-1-min.js"><\/script>')</script>
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

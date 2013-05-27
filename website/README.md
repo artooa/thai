@@ -37,3 +37,7 @@ transition town winterthur - stadt im wandel
 
 
 <http://gemeinschaften.ch/>
+
+> Zitat von Andreas 
+
+Hier geht der Text weiter..

@@ -16,3 +16,6 @@ gem 'systemu'
 # Testing
 gem 'nokogiri'
 gem 'w3c_validators'
+gem 'guard'
+gem 'guard-nanoc'
+

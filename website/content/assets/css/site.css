@@ -1,3 +1,8 @@
+#content
+{
+    padding: 7px 7px 7px 7px;
+}
+
 *
 {
 	border: 0;
@@ -103,10 +108,7 @@ a:link
     background-image:url(../img/Flaeche_transp.png) ;
 }
 
-#content
-{
-    padding: 7px 7px 7px 7px;
-}
+
 
 .Welcome
 {
