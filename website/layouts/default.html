@@ -67,5 +67,19 @@
             g.src='//www.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
+        
+        <script>
+      $(function() {
+        /* KLUDGE, unattractive and someone is bound to break it eventually,
+            but it works for now */ 
+        $('a.menulink').removeClass('underline');
+        var page = window.location.pathname.split('/')[1];
+        if ( page.length ) {
+          $( 'a.menulink [href^="/' + page +'"]' ).addClass('underline');
+        } else {
+          $( 'a.menulink [href="/"]' ).addClass('underline');
+        }   
+      });
+    </script>
     </body>
 </html>
