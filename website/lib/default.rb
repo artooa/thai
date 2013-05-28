@@ -26,12 +26,3 @@ end
 
 include PostHelper
 
-module MOULSite
-
-  # Contains all MO:UL site-specific helpers reside
-  module Helpers
-  end
-
-end
-
-include MOULSite
