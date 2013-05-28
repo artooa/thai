@@ -1,6 +1,9 @@
 source "http://rubygems.org"
-
-gem 'nanoc', '3.6.3'
+ruby "1.9.3",
+  :engine => "ruby",
+  :engine_version => "1.9.3"
+  
+gem 'nanoc'
 gem 'mime-types'
 gem 'less'
 gem 'rainpress'
