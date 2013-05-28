@@ -3,6 +3,11 @@
 # All files in the 'lib' directory will be loaded
 # before nanoc starts compiling.
 
+require 'nanoc/cachebuster'
+
+include Nanoc::Helpers::CacheBusting
+
+
 module PostHelper
   def get_pretty_date(post)
     attribute_to_time(post[:created_at]).strftime('%-d.%m.%Y')

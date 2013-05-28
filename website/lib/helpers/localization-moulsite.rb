@@ -17,7 +17,8 @@ module MOULSite::Helpers::Localization
     # Returns the language_code attribute, or, if the former is nil, the
     # language code derived from the path.
     def language_code_of(item)
-      item.language_code || (item.path.match(/^\/(..)\//) || [])[1]
+      item.language_code || (item.path.match(/^\/(..)\//) || [])[1] 
+      #  (item.identifier.match(/^\/([a-z]{2})\//) || [])[1]
     end
 
     # Returns the item_id attribute of the given item.

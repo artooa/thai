@@ -34,6 +34,8 @@ GEM
     mime-types (1.23)
     nanoc (3.6.3)
       cri (~> 2.3)
+    nanoc-cachebuster (0.3.1)
+      nanoc (>= 3.3.0)
     nokogiri (1.5.9)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
@@ -70,6 +72,7 @@ DEPENDENCIES
   listen
   mime-types
   nanoc
+  nanoc-cachebuster
   nokogiri
   pry
   rainpress

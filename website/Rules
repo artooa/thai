@@ -34,10 +34,12 @@ compile '/assets/css/*' do
   # filter :less	
   filter :rainpress
   filter :relativize_paths, :type => :css
+  # filter :cache_buster
 end
      
 compile '/assets/less/*' do
 #  filter :less
+  #filter :cache_buster
 end
 
 #
@@ -62,6 +64,7 @@ compile '*' do
     filter :erb
     layout 'default'
     #filter :rubypants_ddfreyne
+    #filter :cache_buster
   end
   filter :relativize_paths, :type => :html
 end
@@ -69,18 +72,24 @@ end
 # Stylesheets 
 route '/assets/css/*' do
   # path with version
-  #item.identifier[0..-2] + '-v' + item[:version].to_s + '.css'
+  # item.identifier[0..-2] + '-v' + item[:version].to_s + '.css'
   item.identifier.chop + '.css'
+  #fp = fingerprint(item[:filename])
+  # item.identifier.chop + fp + '.css'
 end
 
 route '/assets/less/*' do
   # path with version
   #item.identifier[0..-2] + '-v' + item[:version].to_s + '.css'
   item.identifier.chop + '.less'
+  #fp = fingerprint(item[:filename])
+  #item.identifier.chop + fp + '.less'
 end
 
 route '/assets/js/*' do
   item.identifier.chop + '.js'
+  #fp = fingerprint(item[:filename])
+  #item.identifier.chop + fp + '.js'
 end
 
 route '/pages/*' do
@@ -94,9 +103,11 @@ route '*' do
   if item.binary?
     # Write item with identifier /foo/ to /foo.ext
     item.identifier.chop + '.' + item[:extension]
+     
   else
     # Write item with identifier /foo/ to /foo/index.html
     item.identifier + 'index.html'
+    # filter :cache_buster
   end
 end
 
