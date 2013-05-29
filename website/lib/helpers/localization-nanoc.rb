@@ -29,16 +29,13 @@ module Nanoc::Helpers
 
 
 
-	    # Language names in English
+	  # Language names in English
 	  LANGUAGE_CODE_TO_NAME_MAPPING = {
 	    'en' => 'English',
-	    'de' => 'German',
-	    'es' => 'Spanish',
-	    'fi' => 'Finnish',
-	    'fr' => 'French',
-	    'it' => 'Italian',
-	    'nl' => 'Dutch'
+	    'de' => 'Deutsch', 
+	    'fr' => 'Français'
 	  }
+	  
 	
 	  # RequiredMethods contains methods required by Nanoc::Helpers::Localization.
 	  module RequiredMethods
@@ -67,9 +64,7 @@ module Nanoc::Helpers
 	  end
 	
 	  
-	  def language_name_for_code(code)
-		LANGUAGE_CODE_TO_NAME_MAPPING[code]
-  	  end
+
   	  	
 	  # Returns all articles in the given language
 	  def articles_in(lang)
