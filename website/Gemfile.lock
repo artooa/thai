@@ -32,7 +32,7 @@ GEM
     lumberjack (1.0.3)
     method_source (0.8.1)
     mime-types (1.23)
-    nanoc (3.6.3)
+    nanoc (3.6.4)
       cri (~> 2.3)
     nanoc-cachebuster (0.3.1)
       nanoc (>= 3.3.0)
