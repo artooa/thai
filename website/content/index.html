@@ -1,23 +1,19 @@
-<ul>
-  <% translations_of(@item).each do |t| %>
-    <li>
-      <% if @item == t %>
-        <span class="active" lang="<%= language_code_of(t) %>">
-          <%= language_name_of(t) %>
-        </span>
-      <% else %>
-        <a href="<%= t.path %>"
-           lang="<%= language_code_of(t) %>"
-           hreflang="<%= language_code_of(t) %>">
-          <%= language_name_of(t) %>
-        </a>
-      <% end %>
-    </li>
-  <% end %>
-</ul>
-
                 
-<div id="content" class="Welcome">
-    HERZLICH<br />WILLKOMMEN
+<div id="content" class="Welcome-index">
+
+	<p class="front-page">
+	<a href="/de/" hreflang="de">HERZLICH <br />WILLKOMMEN, </a>
+	</p>
+	<p class="front-page">
+	
+	
+	
+	<a href="/fr/" hreflang="fr">SOYEZ LES <br /> BIENVENU(E)S,</a>
+	</p>
+	<p class="front-page">
+	
+	<a href="/en/" hreflang="en">WELCOME
+	</p>
+	
 </div>
 

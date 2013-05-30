@@ -38,7 +38,21 @@
         
         <div id="header">
             <div id="logo">
-                <a href="/"><img alt="Logo" src="/assets/img/Logo.png" /></a>
+
+				<% if language_code_of(@item) == 'en' %>
+					<a href="/en/"><img alt="Logo Home" src="/assets/img/Logo.png" /></a>
+				
+				<% elsif language_code_of(@item) == 'de' %>
+					<a href="/de/"><img alt="Logo Home" src="/assets/img/Logo.png" /></a>
+				
+				<% elsif language_code_of(@item) == 'fr' %>
+					<a href="/de/"><img alt="Logo Accueil" src="/assets/img/Logo.png" /></a>
+				<% else %>
+							<!-- WARNING: untranslated -->
+					<a href="/de/"><img alt="Logo untranslated" src="/assets/img/Logo.png" /></a>
+				
+				<% end %>     
+
                 
             </div>
         </div> <!-- header -->

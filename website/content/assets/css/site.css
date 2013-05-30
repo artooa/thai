@@ -74,6 +74,47 @@ body
     padding-bottom: 8px;
 }
 
+ul#nav {
+	list-style-type: none;
+	height: 40px;
+	width: 663px; /* 663px */
+	margin: auto;
+}
+
+ul#-lang-nav {
+	list-style-type: none;
+
+	margin: auto;
+}
+
+ul#nav li {
+	float: left;
+    font-weight:bold;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+
+}
+
+ul#nav li#lang-selection {
+	float: rigth;
+    font-size:9px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 7 px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+
+}
+
+li#lang-selection span.active {
+	font-weight: bold;
+}
+
+div#languages {
+	float: right;
+}
 
 a, a > * {
 color: black;
@@ -93,14 +134,14 @@ border-bottom-color: white;
 /* see http://www.dynamicdrive.com/style/csslibrary/item/thick_underline_menu/ */
 
 .underlinemenu{
-font-weight: bold;
+font-weight: 700;
 width: 100%;
 }
 
 .underlinemenu {
 padding: 6px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
 margin: 0;
-text-align: right; //set value to "left", "center", or "right"*/
+text-align: left; //set value to "left", "center", or "right"*/
 }
 
 .underlinemenu {
@@ -113,6 +154,7 @@ padding: 6px 3px 4px 3px; /*top padding is 6px, bottom padding is 4px*/
 margin-right: 20px; /*spacing between each menu link*/
 text-decoration: none;
 border-bottom: 3px solid black; /*bottom border is 3px*/
+font-weight: bold;
 }
 
 
@@ -159,6 +201,17 @@ a:link
 {
     margin: 375px 0px 0px 0px;
     font-size: 48px;
+}
+
+.Welcome-index
+{
+    margin: 175px 0px 0px 0px;
+    font-size: 48px;
+    
+}
+p.front-page {
+	padding: 8px;
+	
 }
 
 .title
