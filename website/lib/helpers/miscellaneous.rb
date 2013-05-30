@@ -1,4 +1,4 @@
-module MOULSite::Helpers
+module Nanoc::Helpers
 
   # Contains all miscellaneous helper functions that don't fit elsewhere.
   module Miscellaneous

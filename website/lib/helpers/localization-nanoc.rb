@@ -63,7 +63,9 @@ module Nanoc::Helpers
 		  language_name_for_code(language_code_of(item))
 	  end
 	
-	  
+		def language_name_for_code(code)
+			LANGUAGE_CODE_TO_NAME_MAPPING[code]
+		end
 
   	  	
 	  # Returns all articles in the given language
